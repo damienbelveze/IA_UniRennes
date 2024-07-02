@@ -1,0 +1,115 @@
+---
+title: "Initiation aux Intelligences Artificielles Génératives"
+date: 01/07/2024
+author: 
+    - name: Damien Belvèze
+      email: damien.belveze@univ-rennes.fr
+      affiliation: 
+        - name: Université de Rennes
+          city: Rennes
+
+format: 
+    revealjs:
+        logo: images/logo.png
+        footer: "CC-by:4.0 Damien Belvèze"
+        slide-number: c/t
+#        show-slide-number: # print
+#       show-notes: separate-page
+        embed-resources: true
+        transition: convex
+        from: markdown+emoji
+        theme: [dark, monstyle.css]
+        title-slide-attributes: 
+            data-background-color: "#fef1da"
+#       background-color: "#fef1da"
+        reveal_plugins: [menu]
+        reveal_options: 
+          menu: 
+            numbers: true
+
+bibliography: biblio/references.bib
+csl: apa.csl
+---
+
+# ChatGPT : la stratégie du choc {background-color="#fef1da"}
+
+:::{.incremental}
+- aspect magique
+- tyrannie du retard :notebook: @boullierSciencesPoEu2023
+- marketing express (freemium)
+:::
+
+# Le terrain sur lequel ChatGPT apparaît {background-color="#fef1da"}
+
+::::{.incremental}
+:::{.r-fit-text}
+- pas de régulation (jusqu'il y a peu)
+- pas de formation à ces outils
+- pas de prise en compte des problèmes d'intégrité
+- pas de réflexion sur les enjeux sociétaux ou environnementaux
+- pas de réflexion sur les usages pédagogiques de ces outils
+- pas de recul sur la manière dont ces modèles ont été conçus (problèmes juridiques)
+:::
+::::
+
+# La réponse de l'institution {background-color="#fef1da"}
+
+:::{.incremental}
+- Science Po : on interdit sauf quand l'enseignant encadre
+
+- Univ Rennes : on expérimente et on cherche ensemble à définir des risques et des opportunités dans l'usage de ces outils
+:::
+
+# Le cadre de l'expérimentation : technique {background-color="#fef1da"}
+
+:::{.incremental}
+- Un serveur : [Eskemm Numérique](https://www.eskemm-numerique.fr/)
+- Des modèles récupérés sur [HuggingFace](https://huggingface.co/models) chargés sur le serveur
+- une [interface graphique](https://docs.openwebui.com/) pour interagir avec les modèles
+:::
+
+# Le cadre de l'expérimentation : participants {background-color="#fef1da"}
+
+:::{.incremental}
+- Olivier Wong (VPnum) assisté de Pierre Beust (SupTICE) et Laurent Morin (IRISA)
+- des testeurs
+- tout le monde peut tester :point_right: [s'enregistrer](https://enquetes.univ-rennes.fr/index.php/294282))
+:::
+
+# Un RAG {background-color="#fef1da"}
+
+::::{.columns}
+:::{.column width="50%"}
+![sans source](images/RAG1.png)
+:::
+:::{.column width="50%"}
+![avec source](images/RAG2.png)
+:::
+::::
+
+# maîtrise des usages
+
+:::{.incremental}
+- en termes de coûts
+- en termes de déontologie
+- en termes de fiabilité
+:::
+
+## Performances IA locale (qualité / coût)
+
+![](images/quality_price.png)
+
+## Performances IA locale (maîtrise des coûts)
+
+![](images/costs.png)
+
+## déontologie ? fiabilité ? {background-color="#fef1da"}
+
+promouvoir auprès des étudiants (et des chercheurs) des usages *fiables* et *éthiques*
+
+text2image : trop impactant ? 
+
+# Références
+
+
+
